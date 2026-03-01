@@ -1,0 +1,41 @@
+{
+  "name": "@umon752/web-marquee",
+  "version": "1.0.0",
+  "description": "A customizable web component for creating smooth marquee animations with drag support, pause on hover, and flexible direction control",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "web-component",
+    "marquee",
+    "carousel",
+    "animation",
+    "drag",
+    "typescript"
+  ],
+  "author": "YI CHIEH <umon752@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umon752/web-marquee"
+  },
+  "bugs": {
+    "url": "https://github.com/umon752/web-marquee/issues"
+  },
+  "homepage": "https://github.com/umon752/web-marquee#readme",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
