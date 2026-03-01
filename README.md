@@ -219,6 +219,6 @@ web-marquee > div.is-active {
 
 需要支援 Web Components API (Custom Elements, Shadow DOM)。
 
-## 授權
+## License
 
-MIT License - 詳見 [LICENSE](LICENSE) 檔案
+MIT
